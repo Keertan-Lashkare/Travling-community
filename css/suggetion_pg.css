@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url("../images/sugg_pg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: 250px -140px;
+    
+    
+}
+/*.sugg_bg{
+    display: fixed;
+    height: 600px;
+    width: 900px;
+    position: relative;
+    bottom: 80px;
+    left: 480px;
+    background-image: url("../images/sugg_pg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -2;
+  
+    
+
+}*/
+.sugg{
+    height: 120px;
+    width: 300px;
+    position: relative;
+    left: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    display: flex;
+    border:2px solid red;
+    border-radius: 12px;
+    background-color: rgba(109, 189, 255, 0.305);
+    flex-wrap: wrap;
+    
+   
+    
+}
+.sugg_img > img{
+    display:inline;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border:2px solid red;
+    position: relative;
+    top:4px;
+    left: 4px;
+    
+    
+}
+.sugg_info{
+    border: 2px solid blue;
+    display: inline-block;
+    
+}
+.sugg_name{
+    font-size:small;
+}
+.sugg_add{
+    font-size:smaller;
+    color: red;
+}
+.buttom_aria{
+    display: fixed;
+    position: absolute;
+    top:625px;
+    left: 290px;
+    height: 100px;
+    width: 1200px;
+ 
+
+}
+.user_serch{
+    height: 80px;
+    border-radius: 35px;
+    width: 900px;
+    position: relative;
+    top: 12px;
+    background-color:rgba(122, 205, 250, 0.408);
+    border: 3px solid rgb(86, 136, 189);
+    right: 20px;
+    display: flex;
+    float: left;
+    left:50px;
+    
+    
+}
+.submit_btn{
+    
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    float: left;
+    position: relative;
+    left: 80px;
+    top:12px;
+    justify-content: center;
+    background-image: url("../images/sugg_btn.png");
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-color: rgba(128, 128, 128, 0.11);
+    background-color: rgba(82, 156, 186, 0.364);
+    
+}
